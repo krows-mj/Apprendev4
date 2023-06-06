@@ -79,7 +79,7 @@ public class ctrMG1 : MonoBehaviour
             Objetivos[i].textObj.text= "x00";
             Objetivos[i].obj.SetActive(false);
         }
-        mision= Random.Range(1,4);
+        mision= Random.Range(1,3);
         direction= Random.Range(1,3);
         switch (Random.Range(1,3)){
             case 1:

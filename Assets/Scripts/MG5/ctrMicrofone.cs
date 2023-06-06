@@ -38,6 +38,9 @@ public class ctrMicrofone : MonoBehaviour, IPointerDownHandler, IPointerUpHandle
     //void Update(){}
 
     public void Answer(){
+        Tareas.Nueva(0.5f, Answer2);
+    }
+    private void Answer2(){
         ctrMG3.CompareAnswer(ctrTextSpeech.getAnswerSpeech());
     }
 }

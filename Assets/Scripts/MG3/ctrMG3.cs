@@ -122,6 +122,7 @@ public class ctrMG3 : MonoBehaviour
             anim.SetTrigger("god");
             anim.SetTrigger("reset");
             anim.SetInteger("E",Error);
+            suitBoxContents();
         }else{
             Error++;
             anim.SetInteger("E",Error);

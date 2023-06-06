@@ -156,7 +156,7 @@ public class ctrMG8 : MonoBehaviour
                 break;
         }
         */
-        PlayAnswer();
+        Tareas.Nueva(0.4f, PlayAnswer);
     }
     public void StartGameCards(){
         Tareas.Nueva(2.8f, ResetCards);

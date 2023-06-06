@@ -4894,7 +4894,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   GameType: 0
   mision: 0
-  spawTime: 2
+  spawTime: 1.5
   Objetivos:
   - resp: 
     counter: 0

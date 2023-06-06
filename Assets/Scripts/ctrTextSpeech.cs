@@ -12,7 +12,7 @@ public class ctrTextSpeech : MonoBehaviour
 {
     [SerializeField] private string languaje= "en-US";
     [SerializeField] private Text txt;
-    [SerializeField] private string answerSpeech; //texto obtenido de escuchar por microfono
+    [SerializeField] private string answerSpeech=""; //texto obtenido de escuchar por microfono
 
     private void Awake(){
         //Condicional de compilación

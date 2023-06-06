@@ -20,8 +20,9 @@ public class ctrIT : MonoBehaviour
     void Update()
     {
         if(TouchScreenKeyboard.visible == false && inText != null){
-            if(inText.status == TouchScreenKeyboard.Status.Done){
+            if(inText.status == TouchScreenKeyboard.Status.Done && inText.text!=""){
                 ctrGame.CompareAnswer(inText.text);
+                inText.text="";
             }
         }
     }

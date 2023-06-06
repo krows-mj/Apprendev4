@@ -60,7 +60,7 @@ public class ctrCard : MonoBehaviour
     public void ResetCards(){
         ctrGame.ResetCards();
     }
-
+    
     //Off and On
     public void OnContentCard(){
         Content.SetActive(true);
