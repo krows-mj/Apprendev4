@@ -154,6 +154,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   languaje: en-US
   txt: {fileID: 0}
+  answerSpeech: 
 --- !u!4 &5781728
 Transform:
   m_ObjectHideFlags: 0
