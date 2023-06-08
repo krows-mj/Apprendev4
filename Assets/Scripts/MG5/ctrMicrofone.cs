@@ -21,6 +21,7 @@ public class ctrMicrofone : MonoBehaviour, IPointerDownHandler, IPointerUpHandle
 
     public void OnPointerDown(PointerEventData eventData){
         OnButton?.Invoke();
+        Answer();
     }
     public void OnPointerUp(PointerEventData eventData){
         OffButton?.Invoke();
@@ -38,7 +39,7 @@ public class ctrMicrofone : MonoBehaviour, IPointerDownHandler, IPointerUpHandle
     //void Update(){}
 
     public void Answer(){
-        Tareas.Nueva(0.5f, Answer2);
+        Tareas.Nueva(0.2f, Answer2);
     }
     private void Answer2(){
         ctrMG3.CompareAnswer(ctrTextSpeech.getAnswerSpeech());
